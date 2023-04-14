@@ -1,0 +1,139 @@
+/*.card {*/
+/*	margin-right: 10px;*/
+/*	padding: 100px;*/
+/*}*/
+
+.custom-card {
+	border: 0 !important;
+	box-shadow: none !important;
+	margin: 0 !important;
+	padding: 10px 15px !important;
+}
+
+.card-wrapper {
+	border: 1px solid #e2e2ea;
+	border-radius: 20px !important;
+	overflow: hidden;
+	margin: 10px;
+	height: 96%;
+}
+
+.gallery-media {
+	width: 100% !important;
+	height: 175px !important;
+	margin: auto;
+	background-size: contain !important;
+	background-position: center center !important;
+}
+
+.activeCard {
+	border: 3px solid red !important;
+}
+
+/* .pro-properties{
+  margin-top:1rem;
+} */
+.pro-size,
+.pro-color {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.pro-properties h6,
+.pro-size p {
+	margin-right: 4px;
+	color: #696974;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 33px;
+	letter-spacing: 0.00735em;
+	margin-bottom: 0;
+}
+
+.pro-size p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.colors-box {
+	display: flex;
+	flex-wrap: wrap;
+	height: 22px;
+	overflow: hidden;
+}
+
+.color-box {
+	width: 22px;
+	height: 22px;
+	margin-right: 12px;
+}
+
+.dot-span {
+	position: relative;
+	left: -4px;
+	top: 4px;
+}
+
+.alice-carousel__wrapper {
+	height: auto !important;
+}
+
+.alice-carousel__prev-btn {
+	position: absolute;
+	left: -10px;
+	top: 122px;
+	z-index: 9999;
+	width: 50px !important;
+	height: 50px;
+	background: #16978B;
+	color: white;
+	border-radius: 10px;
+	padding: 0 !important;
+	text-align: center !important;
+}
+.alice-carousel__next-btn {
+	position: absolute;
+	right: -10px;
+	top: 122px;
+	z-index: 9999;
+	width: 50px !important;
+	height: 50px;
+	background: #16978B;
+	color: white;
+	border-radius: 10px;
+	padding: 0 !important;
+	text-align: center !important;
+}
+
+.alice-carousel__dots-item:hover,
+.alice-carousel__dots-item.__active {
+	background-color: #1FBEA3 !important;
+}
+
+.alice-carousel__dots-item {
+	background-color: rgba(31, 190, 163, 0.19) !important;
+}
+
+.alice-carousel__dots-item {
+	width: 10px !important;
+	height: 10px !important;
+}
+
+.alice-carousel__next-btn-item, .alice-carousel__prev-btn-item {
+	display: inline-block !important;
+	cursor: pointer !important;
+	color: white !important;
+	line-height: 50px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+
+.alice-carousel__dots {
+	margin: 10px 3px 5px !important;
+}

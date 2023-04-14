@@ -1,0 +1,114 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .loginBox{
+      zoom: 90%;
+    }
+    .sidebar{
+      width:180px;
+    }
+    .content-area{
+      width: calc(100% - 180px);
+    }
+    
+    #bodyContainer {
+      width: calc(100% - 140px);
+      margin-left: 140px;
+    }
+    .products-box h1{
+      zoom: 60%;
+    }
+    .treeItem>div>div{
+      padding: 16px 16px 16px 45px !important;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .sidebar{
+      width:220px;
+    }
+    .content-area{
+      width: calc(100% - 220px);
+    }
+    .style__drawerPaper___3obaX{
+      width: 208px;
+    }
+    
+    #bodyContainer {
+      width: calc(100% - 180px);
+      margin-left: 180px;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .style__drawerPaper___3obaX{
+      width: 220px;
+    }
+    #bodyContainer {
+      width: calc(100% - 220px);
+      margin-left: 220px;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .sidebar{
+      width:180px;
+    }
+    .content-area{
+      width: calc(100% - 180px);
+    }
+    .style__drawerPaper___3obaX{
+      width: 200px;
+    }
+    #bodyContainer {
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+    
+  } 
+  @media only screen and (min-width: 1024px) {
+    .sidebar{
+      width:180px;
+    }
+    .content-area{
+      width: calc(100% - 180px);
+    }
+    .style__drawerPaper___3obaX{
+      width: 200px;
+    }
+    #bodyContainer {
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+    
+  } 
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .sidebar{
+      width:280px;
+    }
+    #bodyContainer {
+      width: calc(100% - 250px);
+      margin-left: 250px;
+    }
+    .content-area{
+      width: calc(100% - 280px);
+    }
+    .style__drawerPaper___3obaX{
+      width: 250px;
+    }
+  }
+ 
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1420px) {
+    .sidebar{
+      width:350px;
+    }
+    .content-area{
+      width: calc(100% - 350px);
+    }
+  }
+
+  

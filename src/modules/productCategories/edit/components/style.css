@@ -1,0 +1,29 @@
+.shortBox {
+  max-width: 300px;
+}
+
+.button {
+  margin-left: 12px;
+}
+
+.toggle {
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+
+.innerBox {
+  padding: 30px;
+}
+@media (max-width:1200px){
+  .innerBox {
+    padding: 10px;
+  }
+}
+.error {
+  color: rgb(244, 67, 54);
+}
+
+.backArrowText{
+	font-size: 1.2rem;
+  vertical-align: super;
+}

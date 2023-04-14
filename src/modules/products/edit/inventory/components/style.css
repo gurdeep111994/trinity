@@ -1,0 +1,25 @@
+.button {
+  margin-left: 12px;
+}
+
+.innerBox {
+  padding: 30px;
+}
+@media (max-width:1200px){
+  .innerBox {
+    padding: 10px;
+  }
+}
+.error {
+  color: rgb(244, 67, 54);
+}
+.inventory input{
+  font-family: 'Roboto',sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+.btnCreate {
+  font-family: Poppins,sans-serif!important;
+  font-weight: 600!important;
+  font-size: 12px!important;
+}

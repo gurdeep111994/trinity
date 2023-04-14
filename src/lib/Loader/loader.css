@@ -1,0 +1,44 @@
+.loader-main-hp {
+  margin: 0px;
+  text-align: center;
+}
+.loader-hp {
+  margin: 50px auto;
+  border: 14px solid #d5b78b;
+  border-radius: 100%;
+  border-top: 14px solid #7b6011;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.small {
+  margin: 0 auto;
+  border: 5px solid #d5b78b;
+  border-top: 5px solid #7b6011;
+  width: 30px;
+  height: 30px;
+}
+
+.inverted {
+  border: 5px solid #fff;
+  border-top: 5px solid #7b6011;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

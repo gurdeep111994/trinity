@@ -1,0 +1,148 @@
+
+.mainNavigation{
+  background: transparent !important;
+}
+
+
+@media (min-width: 600px)
+{
+  .mainNavigation>.MuiToolbar-gutters {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+}
+.leftNavPanel{
+  min-width: 370px;
+  padding: 0 15px;
+}
+.rightNavPanel{
+  width: calc(100% - 370px);
+  padding: 0 15px;
+}
+.title{
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  margin-right: auto !important;
+}
+.leftheader{
+  margin-top: 2rem;
+  display: flex;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  }
+  @media (max-width:1420px){
+    .leftheader{
+
+  zoom: 90%;
+    }
+  }
+  .cardheader{
+    font-size: 16px!important;
+    font-weight: 500!important;
+    font-family: 'Roboto', sans-serif!important;
+    color: #171725!important;
+    text-transform: capitalize;
+  }
+  .navigationCard{
+    overflow: hidden;
+    padding: 10px 20px;
+    margin: 1px 0;
+    margin-right: 12px!important;
+    border-radius: 10px;
+  }
+  .fileicon{
+    width: 11px;
+    margin-right: 6px;
+  }
+  .imgfluid{
+    max-width: 100%;
+  }
+  .navCard{
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+		background: #ffffff;
+  }
+  .navbtn{
+    background: transparent;
+    border: 0px;
+    padding: 0px;
+  }
+  .menuCard{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 9px 8px 5px;
+    border-left: 3px solid transparent;
+    cursor: pointer;
+  }
+  .menuCard .navbtn{
+    cursor: pointer;
+  }
+  .menuCard p{
+    margin: 6px 0;
+    color: #487F8E;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+  }
+  .menuCard:hover{
+    background: #DAF6F2;
+  }
+  .menuCard img{
+    width: 15px;
+  }
+  .linkbtn span{
+    color: #16C2A6;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
+  .borderLeft{
+    border-left: 1px solid #E2E2EA;
+    height: 100%;
+  }
+.linkbtn:hover{
+  background: transparent !important;
+}
+.navContainer{
+  min-height: 60vh;
+  max-height: 70vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.addNewmenuArea{
+  min-width: 190px;
+}
+.addmenuArea{
+  width: calc(100% - 198px);
+  padding: 0 15px;
+}
+
+
+
+@media only screen and (min-width:992px) and (max-width:1260px){
+  .leftNavPanel{
+    min-width: 280px;
+    zoom: 90%;
+  }
+  .rightNavPanel{
+    width: calc(100% - 280px);
+    zoom: 90%;
+  }
+  .addNewmenuArea{
+    min-width: 160px;
+    zoom: 90%;
+    padding-right: 5px;
+  }
+  .addmenuArea{
+    width: calc(100% - 195px);
+    padding: 0 15px;
+    zoom: 90%;
+  }
+}

@@ -1,0 +1,81 @@
+.button {
+  margin-left: 12px;
+}
+
+.innerBox {
+  padding: 30px;
+}
+
+@media (max-width:1200px) {
+  .innerBox {
+    padding: 10px;
+  }
+}
+
+.error {
+  color: rgb(244, 67, 54);
+}
+
+.shortControl {
+  max-width: 300px;
+  margin: 15px 0;
+}
+
+.grid {}
+
+.gridRow {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  font-size: 13px;
+  color: #44444f;
+  font-family: Roboto,sans-serif;
+
+
+}
+
+.gridRow:hover {
+  border: 1px solid #3DD598;
+}
+
+.gridColInput {
+  padding-left: 30px;
+  flex: 8 1;
+}
+
+.gridColButton {
+  padding-right: 30px;
+  text-align: right;
+  flex: 1 1;
+}
+
+.textInput {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+  height: 60px;
+  font-weight: 400;
+    color: #171725!important;
+    font-family: Poppins,sans-serif;
+}
+
+.backArrowText {
+  font-size: 18px;
+  vertical-align: super;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #92929D;
+  text-transform: uppercase;
+}
+
+.alignCenter {
+  text-align: center !important;
+}

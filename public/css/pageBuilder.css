@@ -1,0 +1,570 @@
+@import "https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css";
+ @import "https://kit-free.fontawesome.com/releases/latest/css/free.min.css";
+ @import "https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css";
+/* @import "https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" */
+ .pagebuilder {
+	/*.add-component:before {
+		*/
+		/*content: "";
+		*/
+		/*border-width: 5px 5px 0 5px;
+		*/
+		/*border-color: #1CD3B0 transparent transparent transparent;
+		*/
+		/*position: absolute;
+		*/
+		/*bottom: -5px;
+		*/
+		/*z-index: 1;
+		*/
+		/*width: 0;
+		*/
+		/*height: 0;
+		*/
+		/*border-style: solid;
+		*/
+		/*
+	}
+  */
+}
+
+ .pagebuilder-container {
+   position: relative;
+ }
+
+ .pagebuilder body, .pagebuilder html {
+	 margin: 0;
+	 padding: 0;
+	 height: 100%;
+	 width: 100%;
+}
+
+ .pagebuilder iframe {
+	 height: 100vh;
+}
+ .pagebuilder .invisible {
+	 display: none;
+}
+ .pagebuilder label {
+	 color: #99a0af;
+	 font-family: "Roboto", sans-serif;
+	 font-size: 12px;
+	 font-weight: 400;
+	 display: block;
+	 margin-bottom: 5px;
+}
+ .pagebuilder select {
+	 -webkit-appearance: none;
+	 -moz-appearance: none;
+	 appearance: none;
+	 background-color: #001c25;
+	 background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAACXBIWXMAAAsSAAALEgHS3X78AAAATElEQVQImWOUubyhgYGBwYEBE2xgYWBgCGBgYNDHInmBCarrIprEwsc6/gVMj3X8P6ApAEkkgFn///8HY5nLGwRkLm9wgPH////PAAAkfSAlO3rcogAAAABJRU5ErkJggg==");
+	 border: 0;
+	 border-radius: 2px;
+	 height: 30px;
+	 padding-left: 11px;
+	 padding-right: 26px;
+	 color: #1cd3b0;
+	 font-family: "Roboto", sans-serif;
+	 text-transform: uppercase;
+	 width: 100%;
+	 background-repeat: no-repeat;
+	 background-size: 6px;
+	 background-position: calc(100% - 11px);
+}
+ .pagebuilder input, .pagebuilder button.input-button {
+	 -webkit-appearance: none;
+	 -moz-appearance: none;
+	 appearance: none;
+	 background-color: #001c25;
+	 border-radius: 2px;
+	 border: 0;
+	 height: 30px;
+	 color: white;
+	 padding-left: 11px;
+	 padding-right: 11px;
+	 width: 100%;
+	 display: block;
+	 font-family: "Roboto", sans-serif;
+	 margin-bottom: 20px;
+}
+ .pagebuilder h5 {
+	 font-family: "Roboto", sans-serif;
+	 font-size: 12px;
+	 font-weight: 700;
+	 color: white;
+	 letter-spacing: 0.72px;
+	 text-transform: uppercase;
+}
+ .pagebuilder *:focus, .pagebuilder *:active {
+	 outline: 0;
+}
+ .pagebuilder * {
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+ .pagebuilder .mt-20 {
+	 margin-top: 20px;
+}
+ .pagebuilder .mb-20 {
+	 margin-bottom: 20px;
+}
+ .pagebuilder .ml-10 {
+	 margin-left: 10px;
+}
+ .pagebuilder .mb-10 {
+	 margin-bottom: 10px;
+}
+ .pagebuilder .full-width {
+	 width: 100%;
+}
+ .pagebuilder .page-container {
+	 margin-left: 60px;
+	 position: relative;
+}
+ .pagebuilder .outlined-btn {
+	 border: 1px solid #1cd3b0;
+	 color: #1cd3b0;
+	 background: transparent;
+	 height: 36px;
+	 text-transform: uppercase;
+	 padding: 10px 20px;
+	 font-family: "Roboto", sans-serif;
+	 font-size: 11px;
+	 display: inline-block;
+	 cursor: pointer;
+	 transition: 0.3s ease;
+}
+ .pagebuilder .outlined-btn:hover {
+	 background: rgba(28, 211, 176, 0.28);
+}
+ .pagebuilder .contained-btn {
+	 height: 36px;
+	 background: #1cd3b0;
+	 color: #fff;
+	 padding: 10px 20px;
+	 border: 1px solid #1cd3b0;
+	 text-transform: uppercase;
+	 font-family: "Roboto", sans-serif;
+	 font-size: 11px;
+	 display: inline-block;
+	 cursor: pointer;
+	 transition: 0.3s ease;
+}
+ .pagebuilder .contained-btn:hover {
+	 box-shadow: 0 0 12px 0px #1bd3b0;
+}
+ .pagebuilder .logo {
+	 margin-top: 20px;
+}
+ .pagebuilder .left-navbar {
+	 background-color: #003243;
+	 width: 60px;
+	 height: 100vh;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: space-between;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+}
+ .pagebuilder .menu-btn {
+	 background: transparent;
+	 border: 0;
+	 padding: 20px;
+	 width: 100%;
+	 color: #e2e2e2;
+	 cursor: pointer;
+	 transition: 0.3s ease;
+}
+ .pagebuilder .middle-btn {
+	 width: 60px;
+	 height: 84px;
+	 background: transparent;
+	 border: 0;
+	 color: #e2e2e2;
+	 cursor: pointer;
+}
+ .pagebuilder .middle-btn span {
+	 margin-top: 15px;
+	 display: inline-block;
+	 font-family: "Roboto", sans-serif;
+	 font-size: 10px;
+	 letter-spacing: 0.54px;
+	 text-transform: uppercase;
+}
+ .pagebuilder .middle-btn.active {
+	 color: #8befd2;
+}
+ .pagebuilder .pages-btn .below-arrow {
+	 display: block;
+	 margin-top: 3px;
+}
+ .pagebuilder .dark-btn {
+	 background-color: #002c3b;
+}
+ .pagebuilder .middle-btn, .pagebuilder .bottom-btn {
+	 transition: background-color 0.3s ease;
+}
+ .pagebuilder .middle-btn:hover, .pagebuilder .bottom-btn:hover {
+	 background-color: #001c25;
+}
+ .pagebuilder .bottom-btn {
+	 padding-top: 15px;
+	 padding-bottom: 15px;
+	 width: 100%;
+	 background: transparent;
+	 border: none;
+	 color: #e2e2e2;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 position: relative;
+	 cursor: pointer;
+}
+ .pagebuilder .bottom-bar {
+	 width: 100%;
+	 margin-bottom: 20px;
+}
+ .pagebuilder .bottom-btn .right-side-arrow {
+	 position: absolute;
+	 top: 20px;
+	 right: 8px;
+}
+ .pagebuilder .menu {
+	 position: absolute;
+	 top: 0;
+	 left: 60px;
+	 width: 250px;
+	 background-color: #002633;
+	 height: 100vh;
+	 transition: 0.3s ease;
+	 padding: 30px 0;
+	 max-height: 100vh;
+	 overflow-y: auto;
+	 opacity: 0;
+	 visibility: hidden;
+	 z-index: 1;
+}
+ .pagebuilder .menu h4 {
+	 font-family: "Roboto", sans-serif;
+	 font-size: 14px;
+	 font-weight: 700;
+	 text-transform: uppercase;
+	 color: #8befd2;
+	 margin-top: 0;
+	 margin-bottom: 46px;
+}
+ .pagebuilder ul {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+}
+ .pagebuilder .menu .menu-list li {
+	 position: relative;
+	 height: 40px;
+	 padding-left: 60px;
+	 font-family: "Roboto", sans-serif;
+	 font-size: 12px;
+	 color: white;
+	 font-weight: 400;
+	 display: flex;
+	 align-items: center;
+	 cursor: pointer;
+	 transition: 0.3s ease;
+}
+ .pagebuilder .menu .menu-list li:hover {
+	 background-color: #1cd3b0;
+}
+ .pagebuilder .menu .menu-list li i {
+	 top: 11px;
+	 left: 30px;
+	 position: absolute;
+	 color: white;
+	 font-size: 16px;
+}
+ .pagebuilder .menu-btn:hover, .pagebuilder .middle-btn:hover, .pagebuilder .bottom-btn:hover {
+	 color: #8befd2;
+}
+ .pagebuilder .pages-list {
+	 margin: 0 30px;
+	 list-style: none;
+	 padding: 0;
+}
+ .pagebuilder .pages-list li {
+	 margin-bottom: 40px;
+	 cursor: pointer;
+}
+ .pagebuilder .pages-list img {
+	 width: 100%;
+	 display: block;
+	 background: #181d27;
+	 height: 144px;
+	 object-fit: contain;
+}
+ .pagebuilder .pages-list button {
+	 font-family: "Roboto", sans-serif;
+	 background-color: initial;
+	 border: none;
+	 color: white;
+	 font-size: 16px;
+	 cursor: pointer;
+	 text-transform: uppercase;
+}
+ .pagebuilder .pages-list span, .pagebuilder .pages-list div {
+	 display: block;
+	 text-align: center;
+	 margin-top: 14px;
+	 margin-bottom: 14px;
+	 font-family: "Roboto", sans-serif;
+	 font-size: 12px;
+	 color: #99a0af;
+}
+ .pagebuilder .pages-list .is-focused {
+	 padding: 5px 0;
+	 border: 1px solid #1cd3b0;
+	 cursor: text;
+}
+ .pagebuilder .pages-list .selected img {
+	 box-shadow: 0 0 0 2px #1cd3b0;
+}
+ .pagebuilder .add-new-page {
+	 height: 144px;
+	 border: 1px solid rgba(139, 239, 210, 0.2);
+	 display: flex !important;
+	 align-items: center;
+	 justify-content: center;
+	 flex-direction: column;
+	 cursor: pointer;
+}
+ .pagebuilder .add-new-page i {
+	 font-size: 31px;
+	 color: #8befd2;
+	 margin-bottom: 18px;
+}
+ .pagebuilder .add-new-page span {
+	 font-family: "Roboto", sans-serif;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 font-weight: 300;
+	 margin-top: 0;
+	 color: #8befd2;
+}
+ .pagebuilder .responsive-menu li {
+	 height: 54px;
+	 position: relative;
+	 padding-left: 65px;
+	 display: flex;
+	 align-items: center;
+	 color: white;
+	 font-size: 12px;
+	 font-family: "Roboto", sans-serif;
+	 cursor: pointer;
+	 transition: 0.3s ease;
+}
+ .pagebuilder .responsive-menu li i {
+	 position: absolute;
+	 top: 18px;
+	 left: 30px;
+	 color: white;
+	 font-size: 18px;
+}
+ .pagebuilder .responsive-menu li:hover {
+	 background-color: #1cd3b0;
+}
+ .pagebuilder .responsive-menu li .rotated {
+	 transform: rotate(90deg);
+}
+ .pagebuilder .settings-menu h4 {
+	 margin-left: 0;
+}
+ .pagebuilder .settings-menu {
+	 padding-left: 30px;
+	 padding-right: 30px;
+	 width: 300px;
+}
+ .pagebuilder .components-menu {
+	 right: 0;
+	 left: initial;
+	 display: flex;
+	 flex-direction: column;
+	 padding-bottom: 0;
+	 width: 300px;
+}
+ .pagebuilder .components-menu .padded {
+	 padding-left: 30px;
+	 padding-right: 30px;
+}
+ .pagebuilder .components-menu h4 {
+	 margin-left: 0;
+}
+ .pagebuilder .components-menu > div > select {
+	 color: white;
+}
+ .pagebuilder .components-menu > div > label {
+	 font-size: 16px;
+}
+ .pagebuilder .main-menu.open, .pagebuilder .pages-menu.open, .pagebuilder .responsive-menu.open, .pagebuilder .settings-menu.open, .pagebuilder .components-menu.open {
+	 opacity: 1;
+	 visibility: visible;
+}
+ .pagebuilder .hero-section {
+	 width: 100%;
+	 height: 400px;
+	 position: relative;
+}
+ .pagebuilder .hero-section img {
+	 width: 100%;
+	 height: 100%;
+	 object-fit: cover;
+}
+ .pagebuilder .hero-section .overlay-content {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background: rgba(28, 211, 176, 0.39);
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 flex-direction: column;
+}
+ .pagebuilder .hero-section .overlay-content h1 {
+	 color: white;
+	 font-size: 34px;
+	 font-family: "Roboto", sans-serif;
+	 font-weight: 700;
+	 text-transform: uppercase;
+	 margin-bottom: 0;
+}
+ .pagebuilder .hero-section .overlay-content h4 {
+	 color: white;
+	 font-size: 14px;
+	 font-family: "Roboto", sans-serif;
+	 font-weight: 400;
+	 text-transform: uppercase;
+	 margin-bottom: 0;
+	 margin-top: 0;
+}
+ .pagebuilder .add-component {
+	 width: 40px;
+	 height: 40px;
+	 background: #1cd3b0;
+	 color: white;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 position: absolute;
+	 left: 50%;
+	 transform: translate(-20px, -20px);
+	 cursor: pointer;
+	 transition: 0.3s ease;
+	 box-shadow: 0px 3px 18px #000 29;
+	 border-radius: 2px;
+	/* this can be used to toggle the visibility of the button*/
+	/*opacity: 0;
+	*/
+	/*visibility: hidden;
+	*/
+}
+ .pagebuilder .add-component i {
+	 font-size: 24px;
+}
+ .pagebuilder .components-list {
+	 width: 100%;
+	 height: 100%;
+	 max-height: 100%;
+	 overflow-y: auto;
+	 padding: 0 30px 30px 30px;
+	 cursor: pointer;
+}
+ .pagebuilder .components-menu li {
+	 width: 100%;
+}
+ .pagebuilder .components-menu img {
+	 width: 100%;
+	 height: 112px;
+	 object-fit: contain;
+	 background: #181d27;
+	 margin-bottom: 10px;
+	 display: block;
+}
+ .pagebuilder .components-menu p {
+	 margin-top: 0;
+	 color: #99a0af;
+	 font-size: 16px;
+	 text-align: center;
+	 font-family: "Roboto", sans-serif;
+}
+ .pagebuilder .components-container {
+	 height: calc(100vh - 171px);
+	 margin-top: 30px;
+}
+ .pagebuilder .section-options {
+	 background-color: #1cd3b0;
+	 color: white;
+	 border-radius: 2px;
+	 -webkit-box-shadow: 0px 3px 18px #000 29;
+	 -moz-box-shadow: 0px 3px 18px #000 29;
+	 box-shadow: 0px 3px 18px #000 29;
+	 position: absolute;
+	 top: 0;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 z-index: 2;
+	 padding-left: 12px;
+	 padding-right: 12px;
+}
+ .pagebuilder .section-options button {
+	 background: transparent;
+	 color: white;
+	 border: 0;
+	 width: 38px;
+	 height: 50px;
+	 cursor: pointer;
+	 position: relative;
+}
+ .pagebuilder .section-options button i {
+	 font-size: 18px;
+}
+ .pagebuilder .section-options button span {
+	 position: absolute;
+	 top: 100%;
+	 margin-top: 10px;
+	 background: #181d27;
+	 color: white;
+	 font-size: 12px;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 transition: 0.3s ease;
+	 opacity: 0;
+	 visibility: hidden;
+	 white-space: nowrap;
+	 padding: 5px 8px;
+	 border-radius: 2px;
+	 font-family: "Roboto", sans-serif;
+}
+ .pagebuilder .section-options button span:before {
+	 content: "";
+	 border-left: 5px solid transparent;
+	 border-right: 5px solid transparent;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 border-bottom: 5px solid #181d27;
+	 position: absolute;
+	 top: -5px;
+	 z-index: 1;
+	 width: 0;
+	 height: 0;
+}
+ .pagebuilder .section-options button:hover span {
+	 opacity: 1;
+	 visibility: visible;
+}
+
+.album-gallery-button-container {
+	text-align: center;
+}

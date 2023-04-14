@@ -1,0 +1,26 @@
+.button {
+	margin-left: 12px;
+
+}
+
+.innerBox {
+	padding: 30px 30px 30px 30px;
+}
+@media (max-width:1200px){
+	.innerBox {
+		padding: 10px;
+	}
+}
+/* .innerText label {
+  color:#00C2A6!important;} */
+
+.innerText input {
+	/* color: #44444F!important; */
+	font-family: 'Roboto', sans-serif!important;
+	font-size: 14px!important;
+	font-weight: 500!important;
+}
+
+.error {
+	color: rgb(244, 67, 54);
+}

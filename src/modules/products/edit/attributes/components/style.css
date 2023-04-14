@@ -1,0 +1,61 @@
+.button {
+  margin-left: 12px;
+}
+
+.innerBox {
+  padding: 30px;
+}
+@media (max-width:1200px){
+  .innerBox {
+    padding: 10px;
+  }
+}
+.childrenBox {
+  padding: 0 30px 30px 30px;
+}
+
+.error {
+  color: rgb(244, 67, 54);
+}
+
+.head {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #a1a1a1;
+  padding: 18px 0 18px 30px !important;
+}
+
+.input {
+  color:#171725;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  line-height: 21px;
+  letter-spacing: .2px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+  text-indent: 20px;
+}
+.input2{
+  border: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.09px;
+    color: #171725;
+    margin-left: 20px;
+}
+.input3{
+  border: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.09px;
+    color: #44444F;
+}
+.btnCreate{
+  font-family: Poppins, sans-serif!important;
+
+  font-weight: 600!important;
+    font-size: 12px!important;
+}

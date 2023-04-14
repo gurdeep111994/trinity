@@ -1,0 +1,186 @@
+.button {
+  margin-left: 12px;
+}
+
+.toggle {
+  margin-top: 12px;
+  margin-bottom: 22px;
+}
+
+.innerBox {
+  padding: 30px;
+}
+@media (max-width:1200px){
+  .innerBox {
+    padding: 10px;
+  }
+}
+.childrenBox {
+  padding: 0 30px 30px 30px;
+}
+
+.error {
+  color: rgb(244, 67, 54);
+}
+
+.address {
+  font-size: 14px;
+}
+
+.address label {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.address div {
+  margin-bottom: 6px;
+}
+
+.item {
+	padding: 10px 5px;
+	background: #FAFAFB;
+	border-radius: 10px;
+}
+
+.itemImage {
+  max-width: 100%;
+  max-height: 80px;
+}
+
+.itemDiscount {
+  color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+
+.itemName {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+}
+
+.itemName a {
+  color: rgb(0,142,180);
+  text-decoration: none;
+}
+
+.itemName div {
+  margin-top: 4px;
+}
+
+.total {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.total span {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.grandTotal {
+  font-weight: 500;
+}
+
+.link {
+  color: #00978B;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.subheading{
+	margin-bottom: 10px;
+    margin-left: 20px;
+    color: rgb(146, 146, 157);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.summaryRow {
+  margin-bottom: 10px;
+  font-size: 14px;
+	word-break: break-all;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #44444F;
+	padding: 4px 0;
+}
+
+.txtLabel{
+	font-size: 14px;
+	word-break: break-all;
+	letter-spacing: 0.1px;
+	color: #44444F !important;
+	font-weight: 600;
+}
+.states {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+.states span {
+  padding: 4px 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+.closedState {
+  background-color: rgb(127, 175, 27);
+  color: #fff;
+}
+.cancelledState {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+.deliveredState {
+  background-color: rgb(127, 175, 27);
+  color: #fff;
+}
+.paidState {
+  background-color: rgb(251, 184, 41);
+}
+.holdState {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.draftState {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.shippingButtons{
+  text-align: right;
+	margin-top: 20px;
+}
+
+
+.btnPrimaryOutline{
+	background: #FFFFFF;
+	border: 1px solid #00978b;
+	border-radius: 10px;
+	opacity: 1;
+	color: #00978b;
+	padding: 8px 36px;
+	text-transform: uppercase;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 600;
+	margin-right: 10px;
+}
+.btnPrimaryOutline:hover{
+	background: #00978b;
+	border: 1px solid #00978b;
+	color: #FFFFFF;
+}
+.halfDivider{
+	margin: 15px 0px 15px !important;
+	background-color: transparent !important;
+	border-top: 2px dashed  #B5B5BE!important;
+	width: 65%;
+	margin-left: auto !important;
+}
+.hrow{
+	margin: 30px 0px;
+	height: 5px;
+	border: none;
+	background-color: rgb(250, 250, 251);
+}
+.treeItem .material-icons{
+	font-size: 20px !important;
+    color: #92929d !important;
+}

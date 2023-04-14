@@ -1,0 +1,16 @@
+.sitemapList p {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 13px;
+	color: #171725!important;
+	font-family: Poppins, sans-serif;
+}
+.sitemapList div {
+	cursor: default;
+}
+.sitemapSearch {
+	display: flex;
+}
+.sitemapContent {
+	padding: 10px;
+}

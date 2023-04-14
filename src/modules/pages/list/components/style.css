@@ -1,0 +1,121 @@
+
+
+.searchbox {
+    position: relative;
+    margin-right: 30px;
+  }
+  
+  .searchbox input {
+    width: 100%;
+    padding: 8px 12px 8px 25px !important;
+    border-radius: 10px !important;
+    border: 1px solid #e2e2ea !important;
+    color: #92929D !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px !important;
+    letter-spacing: 0.17px;
+  }
+  .searchbox::placeholder {
+    color: #92929D !important;
+  }
+  
+  .searchbox input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .searchbox span {
+    position: absolute!important;
+    display: inline-block;
+    top: 6px;
+    left: 11px;
+    bottom: 0px;
+    display: inline-flex;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+  }
+  .addnewbtn {
+    cursor: pointer!important;
+    border: 1px solid #00978B!important;
+    border-radius: 10px!important;
+    background: #00978B!important;
+    color: #fff!important;
+    display: flex!important;
+    padding: 5px 12px!important;
+    align-items: center!important;
+    justify-content: center!important;
+    font-size: 14px!important;
+    white-space: nowrap!important;
+    font-family: 'Poppins', sans-serif!important;
+    margin-top: 4px!important;
+    line-height: normal!important;
+  }
+  .button {
+    margin-left: 12px;
+  }
+  
+  .innerBox {
+    padding: 30px;
+  }
+  @media (max-width:1200px){
+    .innerBox {
+      padding: 10px;
+    }
+  }
+  .error {
+    color: rgb(244, 67, 54);
+  }
+  .innerBox input {
+    font-family: Roboto,sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    color: #44444F!important;
+  }
+  .editDesc p ,.editTag p  {
+    font-family: Roboto,sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    color: #44444F!important;
+  }
+  .editDesc  {
+    font-family: Roboto,sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    color: #44444F!important;
+  }
+  
+  .innerBox label{
+    color: #00C2A6!important;
+  }
+  
+  .editToggle  label {
+    font-family: Roboto,sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 500!important;
+    color: #44444F!important;
+  }
+  
+  .editTag  .react-tagsinput-tag {
+    font-family: Roboto,sans-serif!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    color: #487F8E!important;
+  }
+  
+  .addTagbtn {
+    border: 5px solid red;
+  }
+  
+  .editTag input {
+    font-family: Roboto,sans-serif!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    color: #487f8e!important;
+    border: 1px solid #e0e0e0!important;
+    padding: 7px 10px!important;
+    background-color: #fff!important;
+    border-radius: 10px!important;}
+
+
+  

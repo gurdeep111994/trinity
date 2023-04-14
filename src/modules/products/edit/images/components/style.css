@@ -1,0 +1,11 @@
+.innerBox {
+    padding: 30px;
+  }
+  @media (max-width:1200px){
+    .innerBox {
+      padding: 10px;
+    }
+  }
+.childrenBox {
+    padding: 0 30px 30px 30px;
+}

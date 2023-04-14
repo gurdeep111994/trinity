@@ -1,0 +1,10 @@
+.vscode
+node_modules
+public/index.html
+dist/*
+npm-debug.log*
+yarn-error.log
+*.zip
+.idea
+settings.json
+.env

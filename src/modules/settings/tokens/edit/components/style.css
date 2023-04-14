@@ -1,0 +1,15 @@
+.button {
+  margin-left: 12px;
+}
+
+.innerBox {
+  padding: 30px;
+}
+@media (max-width:1200px){
+  .innerBox {
+    padding: 10px;
+  }
+}
+.error {
+  color: rgb(244, 67, 54);
+}

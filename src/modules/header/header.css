@@ -1,0 +1,28 @@
+.alignRight
+{
+	text-align: right !important;
+}
+.alignCenter
+{
+	text-align: center !important;
+}
+.backArrowText
+{
+	font-size: 18px;
+  vertical-align: super;
+  color: #92929D;
+  font-weight: 600!important;
+  font-family: Poppins,sans-serif!important;
+}
+.editHeadText{
+	font-size: 24px!important;
+	color: #171725!important;
+	font-family: Poppins,sans-serif!important;
+	font-weight: 600!important;
+}
+.back-icon{
+	height: 500px!important;
+	width: 200px;
+	background-color: red!important;
+  }
+  

@@ -1,0 +1,74 @@
+.button {
+  margin-left: 12px;
+}
+
+.innerBox {
+  padding: 30px;
+}
+@media (max-width:1200px){
+  .innerBox {
+    padding: 10px;
+  }
+}
+.error {
+  color: rgb(244, 67, 54);
+}
+
+.inputForm .divider{
+	margin-top: 10px!important;
+	margin-bottom: 10px !important;
+	height: 2px!important;
+	background-color:#F1F1F5!important ;	
+}
+
+
+
+.inputForm .bigTitel {
+  font-family: Roboto,sans-serif !important;
+  font-size: 14px!important;
+  font-weight: 500!important;
+  color: #44444F!important;
+}
+
+.inputForm .textField{
+  font-family: Roboto,sans-serif !important;
+  font-size: 14px!important;
+  font-weight: 500!important;
+  color: #44444F!important;
+}
+.inputForm .textField input{
+  font-family: Roboto,sans-serif !important;
+  font-size: 14px!important;
+  font-weight: 500!important;
+  color: #44444F!important;
+}
+.inputForm .textField label{
+  color: #92929D!important;
+  font-family: Roboto,sans-serif !important;
+  font-size: 14px!important;
+  font-weight: 400!important;
+}
+
+.inputForm .toggleField {
+  font-family: Roboto,sans-serif !important;
+  font-size: 14px!important;
+  font-weight: 500!important;
+  color: #44444F!important;
+}
+.addnewbtn {
+  cursor: pointer!important;
+  border: 1px solid #00978B!important;
+  border-radius: 10px!important;
+  background: #00978B!important;
+  color: #fff!important;
+  display: flex!important;
+  padding: 5px 12px!important;
+  align-items: center!important;
+  justify-content: center!important;
+  font-size: 14px!important;
+  white-space: nowrap!important;
+  font-family: 'Poppins', sans-serif!important;
+  margin-top: 4px!important;
+  line-height: normal!important;
+
+}

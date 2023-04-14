@@ -1,0 +1,60 @@
+.button {
+  margin-left: 12px;
+}
+.button2 {
+  margin-left: 12px;
+}
+.button2 span{
+ color:#00C3A6;
+}
+.button2:disabled span{
+  color:#D3D3D3;
+ }
+.innerBox {
+  padding: 30px;
+}
+
+.arrayInnerBox {
+  padding: 0 30px 20px 30px;
+}
+
+.arrayTitle{
+  margin: 40px 0 0 0;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.arrayItemHead {
+  padding: 4px;
+}
+
+.colorInput {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.colorInput label {
+  margin-right: 20px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+    font-weight: 600;
+    margin: 40px -30px 0;
+    padding: 14px 30px;
+    background-color: #fafafb;
+    text-align: left;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.settingTitle{
+  color: #92929d;
+  text-transform: uppercase;
+  font-family: Poppins,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
